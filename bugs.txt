@@ -1,0 +1,5 @@
+# Format: Browser-Platform- bug
+
+Firefox-PC- middle menubar 1px off on hover
+All-iPad- 1 px lines between colored elements
+All-iPad- Lag upon failing easter egg
