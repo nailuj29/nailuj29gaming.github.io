@@ -1,0 +1,38 @@
+@-moz-keyframes rainbow {
+	0%    {background-color:red;}
+	14%   {background-color:orange;}
+	28%   {background-color:yellow;}
+	42%   {background-color:green;}
+	57%   {background-color:blue;}
+	71%   {background-color:indigo;}
+	85%   {background-color:purple;}
+	100%  {background-color:red;}
+}
+@-webkit-keyframes rainbow {
+	0%    {background-color:red;}
+	14%   {background-color:orange;}
+	28%   {background-color:yellow;}
+	42%   {background-color:green;}
+	57%   {background-color:blue;}
+	71%   {background-color:indigo;}
+	85%   {background-color:purple;}
+	100%  {background-color:red;}
+}
+@keyframes rainbow {
+	0%    {background-color:red;}
+	14%   {background-color:orange;}
+	28%   {background-color:yellow;}
+	42%   {background-color:green;}
+	57%   {background-color:blue;}
+	71%   {background-color:indigo;}
+	85%   {background-color:purple;}
+	100%  {background-color:red;}
+}
+body {
+	-moz-animation-name: rainbow;
+	-moz-animation-duration: 7000ms;
+	-moz-animation-iteration-count: infinite;
+	-webkit-animation-name: rainbow;
+	-webkit-animation-duration: 7000ms;
+	-webkit-animation-iteration-count: infinite;
+}
